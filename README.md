@@ -29,7 +29,7 @@ you can get bonding curve account from tx,but you can't get bonding curve accoun
 
     let recent_blockhash = get_recent_block_hash(self.rpc_client).await;
 
-#### ** Here **
+#### Here
 
 you never need anything like RPC request.
 you can get all data from account in onchain(Smart contract) directly

@@ -34,19 +34,9 @@ you can get bonding curve account from tx,but you can't get bonding curve accoun
 you never need anything like RPC request.
 you can get all data from account in onchain(Smart contract) directly
 
---- EX
-
- let bonding_curve =
-        from_slice::<BondingCurveAccount>(&bonding_curve_data).map_err(|e| {
-            anyhow!(
-                "Failed to deserialize bonding curve account: {}",
-                e.to_string()
-            )
-        })?;
-
 ## 🚀 **Getting Started**
 
-Follow these steps to get your **Copy trading Bot** up and running!
+Follow these steps to get your **Copy trading Bot ** up and running!
 
 ### Prerequisites
 
@@ -67,39 +57,20 @@ Follow these steps to get your **Copy trading Bot** up and running!
 
    ```bash
    cd copy-trading-bot
-   cargo build
+   anchor build
+   anchor deploy
    ```
 
-3. **Configure ENV**:
-
-   Replace the API token in the `ENDPOINT` variable:
-
-   ```ts
-   const ENDPOINT = "https://mainnet.helius-rpc.com";
-   const WSS_ENDPOINT = "wss://atlas-mainnet.helius-rpc.com";
-   const TARGET = "YOUR_TARGET_WALLET";
-   ```
-
-4. **Run the Bot**:
+3. **Run the Bot**:
 
    Start the bot by running:
+   this bot is https://github.com/Solgeniust1111/solana-copy-trading-bot
+   this bot has integrated with this Smart contract
 
    ```bash
    cargo run
    ```
-
 ---
-
-**You can run the Bot with copy-trading-bot.zip**
-
-### Sample Tx
-
-target: https://solscan.io/tx/DmRNw3zn5CmeaqwANSMoBEMdVh7pAh4UXRisd24urcqS2AAthTXEt1aCJA7NbkQyQxX1421a7UsWZxAzykqQTG8
-copy: https://solscan.io/tx/4mH7spQs9XgfeLT7fPscTV59nxtDAu3iV3GFdgM9RcLCni5xcKnWYmwbwc7H6DmXBzvspnZfFjQg72hJ8dM3xHvJ
-
-target:
-https://solscan.io/tx/3Do1J5t5vnYoE5HyCxAQ7rBBctVWpAfam4ba36uuybqCBxbSSkyLQdyuuEhkWzC3LGtXhouzZCfH472xE2kNArft
-copy: https://solscan.io/tx/2eM7KRvoWuyLZCxWVBmDhZUyecL8TJZXhp4Tbe7ftQcyYGQYBGgPDb1cQf4yZRkm4ximEbcKVX7JBDfpo5U2x5Nu
 
 ### Contact
 

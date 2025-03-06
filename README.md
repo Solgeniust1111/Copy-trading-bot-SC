@@ -43,7 +43,7 @@ you can get all data from account in onchain(Smart contract) directly
                 e.to_string()
             )
         })?;
-
+---
 ## 🚀 **Getting Started**
 
 Follow these steps to get your **Copy trading Bot** up and running!

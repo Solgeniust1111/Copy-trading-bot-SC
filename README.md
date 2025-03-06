@@ -34,16 +34,7 @@ you can get bonding curve account from tx,but you can't get bonding curve accoun
 you never need anything like RPC request.
 you can get all data from account in onchain(Smart contract) directly
 
---- EX
 
- let bonding_curve =
-        from_slice::<BondingCurveAccount>(&bonding_curve_data).map_err(|e| {
-            anyhow!(
-                "Failed to deserialize bonding curve account: {}",
-                e.to_string()
-            )
-        })?;
----
 ## 🚀 **Getting Started**
 
 Follow these steps to get your **Copy trading Bot** up and running!

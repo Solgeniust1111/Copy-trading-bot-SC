@@ -5,8 +5,8 @@ Only you need worry about Comfirm in here
 But Jito and Nextblock can help you
 
 ### 🎯 **Key Features**
-
-you can get bonding curve account from tx,but you can't get bonding curve account data from that without RPC request in offchain.
+#### **Original Bot**
+you can get bonding curve account from tx,but you can't get bonding curve account data from that without RPC request in original bot.
 
 --- in PUMPFUN
 
@@ -28,6 +28,11 @@ you can get bonding curve account from tx,but you can't get bonding curve accoun
 --- DEFAULT
 
     let recent_blockhash = get_recent_block_hash(self.rpc_client).await;
+
+#### ** Here **
+
+you never need anything like RPC request.
+you can get all data from account in onchain directly
 
 ## 🚀 **Getting Started**
 

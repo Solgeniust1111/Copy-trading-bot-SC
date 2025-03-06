@@ -50,9 +50,9 @@ Follow these steps to get your **Copy trading Bot** up and running!
 
    ```bash
    git clone https://github.com/yourusername/copy-trading-bot
-   ```
-   git clone https://github.com/yourusername/copy-trading-bot-smart-contract
 
+   git clone https://github.com/yourusername/copy-trading-bot-smart-contract
+   ```
 2. **Install Dependencies**:
 
    Navigate to the project directory and run the following command:

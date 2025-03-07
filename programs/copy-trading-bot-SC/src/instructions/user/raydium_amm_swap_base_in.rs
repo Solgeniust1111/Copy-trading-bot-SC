@@ -172,7 +172,6 @@ impl<'info> RaydiumAMMSwapBaseIn<'info> {
         } else {
             // If the account doesn't exist, create it
         }
-
         // Ensure the destination ATA exists or create it
         if !user_token_destination.to_account_info().data_is_empty() {
             msg!("User destination token account already exists.");
